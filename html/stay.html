@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Stay – Visit Taniti</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <a class="skip" href="#main">Skip to main content</a>
+    <header>
+        <div class="bar">
+            <a class="logo" href="index.html">Visit Taniti</a>
+            <nav class="d" aria-label="Main">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="stay.html" aria-current="page">Stay</a></li>
+                    <li><a href="eat.html">Eat & Shop</a></li>
+                    <li><a href="things-to-do.html">Things to Do</a></li>
+                    <li><a href="getting-around.html">Getting Around</a></li>
+                    <li><a href="plan.html">Plan Your Trip</a></li>
+                </ul>
+            </nav>
+            <details class="m">
+                <summary>Menu</summary>
+                <nav aria-label="Main mobile">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="stay.html" aria-current="page">Stay</a></li>
+                        <li><a href="eat.html">Eat & Shop</a></li>
+                        <li><a href="things-to-do.html">Things to Do</a></li>
+                        <li><a href="getting-around.html">Getting Around</a></li>
+                        <li><a href="plan.html">Plan Your Trip</a></li>
+                    </ul>
+                </nav>
+            </details>
+        </div>
+    </header>
+    <main id="main" tabindex="-1">
+        <p class="crumb"><a href="index.html">Home</a> › Stay</p>
+        <h1>Where to Stay</h1>
+            <figure class="pic"><img src="../images/hotel1.jpg" alt="Taniti hotel" width="800" height="300"></figure>
+            <p>All lodging is regulated and regularly inspected by the Tanitian government.</p>
+        <div class="filters" role="group" aria-label="Filter">
+            <button aria-pressed="true" data-c="all">All</button>
+            <button aria-pressed="false" data-c="budget">Budget</button>
+            <button aria-pressed="false" data-c="luxury">Luxury</button>
+            <button aria-pressed="false" data-c="family">Family</button>
+            <button aria-pressed="false" data-c="couples">Couples</button>
+        </div>
+        <div class="grid">
+            <article class="card" data-cat="budget">
+                <span class="tag">budget</span><h3>Hostel</h3>
+                <p>Inexpensive shared rooms; great for solo travelers.</p>
+                <a class="btn" href="book.html?item=Hostel">Book / Reserve</a>
+            </article>
+            <article class="card" data-cat="luxury">
+                <span class="tag">luxury</span><h3>Four-Star Resort</h3>
+                <p>Taniti's one large resort with full amenities.</p>
+                <a class="btn" href="book.html?item=Four-Star%20Resort">Book / Reserve</a>
+            </article>
+            <article class="card" data-cat="family">
+                <span class="tag">family</span><h3>Family-Owned Hotels</h3>
+                <p>Small, friendly hotels; many near Merriton Landing.</p>
+                <a class="btn" href="book.html?item=Family-Owned%20Hotels">Book / Reserve</a>
+            </article>
+            <article class="card" data-cat="couples">
+                <span class="tag">couples</span><h3>Bed & Breakfasts</h3>
+                <p>A growing number of cozy B&amp;Bs.</p>
+                <a class="btn" href="book.html?item=Bed%20%26%20Breakfasts">Book / Reserve</a>
+            </article>
+        </div>
+    </main>
+
+    <footer>Taniti Tourism Office. Prices in US dollars. Prototype only (no real bookings).</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Eat & Shop – Visit Taniti</title>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+    <a class="skip" href="#main">Skip to main content</a>
+    <header>
+        <div class="bar">
+            <a class="logo" href="index.html">Visit Taniti</a>
+            <nav class="d" aria-label="Main">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="stay.html">Stay</a></li>
+                    <li><a href="eat.html" aria-current="page">Eat & Shop</a></li>
+                    <li><a href="things-to-do.html">Things to Do</a></li>
+                    <li><a href="getting-around.html">Getting Around</a></li>
+                    <li><a href="plan.html">Plan Your Trip</a></li>
+                </ul>
+            </nav>
+            <details class="m">
+                <summary>Menu</summary>
+                <nav aria-label="Main mobile">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="stay.html">Stay</a></li>
+                        <li><a href="eat.html" aria-current="page">Eat & Shop</a></li>
+                        <li><a href="things-to-do.html">Things to Do</a></li>
+                        <li><a href="getting-around.html">Getting Around</a></li>
+                        <li><a href="plan.html">Plan Your Trip</a></li>
+                    </ul>
+                </nav>
+            </details>
+        </div>
+    </header>
+    <main id="main" tabindex="-1">
+    <p class="crumb"><a href="index.html">Home</a> › Eat & Shop</p>
+    <h1>Eat & Shop</h1>
+    <figure class="pic"><img src="../images/bar1.jpg" alt="Taniti Beach Bar" width="800" height="300"></figure>
+    <div class="filters" role="group" aria-label="Filter">
+        <button aria-pressed="true" data-c="all">All</button>
+        <button aria-pressed="false" data-c="local">Local</button>
+        <button aria-pressed="false" data-c="american">American</button>
+        <button aria-pressed="false" data-c="asian">Asian</button>
+        <button aria-pressed="false" data-c="grocery">Grocery</button>
+    </div>
+    <div class="grid"><article class="card" data-cat="local">
+        <span class="tag">local</span><h3>Local Fish & Rice</h3>
+        <p>5 restaurants serving fresh local fish and rice.</p></article>
+    <article class="card" data-cat="american">
+        <span class="tag">american</span><h3>American-Style</h3>
+        <p>3 restaurants with familiar meals, kid-friendly.</p></article>
+    <article class="card" data-cat="asian">
+        <span class="tag">asian</span><h3>Pan-Asian</h3>
+        <p>2 restaurants serving Pan-Asian cuisine.</p></article>
+    <article class="card" data-cat="grocery">
+        <span class="tag">grocery</span><h3>Supermarkets</h3>
+        <p>2 supermarkets and 2 smaller grocery stores.</p></article>
+    <article class="card" data-cat="grocery">
+        <span class="tag">grocery</span><h3>24-Hour Convenience Store</h3>
+        <p>Open every hour of every day.</p></article>
+    </div>
+    <div class="note">Many restaurants close on national holidays — check <a href="plan.html">Plan Your Trip</a>.</div>
+    </main>
+
+    <footer>Taniti Tourism Office. Prices in US dollars. Prototype only (no real bookings).</footer>
+    <script src="script.js"></script>
+    </body>
+</html>
